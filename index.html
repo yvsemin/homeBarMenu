@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .drink-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .drink-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+        .drink-item div {
+            max-width: 75%;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media only screen and (max-width: 600px) {
+            .drink-item {
+                flex-direction: column;
+                text-align: center;
+            }
+            .drink-item img {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Drinks !</h1>
+        <nav>
+            <a href="#cocktails">Cocktails</a>
+            <a href="#beers">Beers</a>
+            <a href="#vine">Vine</a>
+            <a href="#virgin">Virgin</a>
+        </nav>
+    </header>
+    
+    <section id="cocktails">
+        <h2>Cocktails</h2>
+        <div class="drink-item">
+            <img src="img/image_margharita.jpg" alt="Cocktail Image">
+            <div>
+                <h3>Frozen Strawberry Margharita</h3>
+                <p>A refreshing cocktail made with Tequila, lime, strawberry, and ice.</p>
+            </div>
+        </div>
+        <div class="drink-item">
+            <img src="img/image_gtl.jpg" alt="Cocktail Image">
+            <div>
+                <h3>Lavender Gin Tonic</h3>
+                <p>Gin, Tonic and lavender syrup</p>
+            </div>
+        </div>
+      <div class="drink-item">
+            <img src="img/image_gt.jpg" alt="Cocktail Image">
+            <div>
+                <h3>Gin Tonic</h3>
+                <p>Classic Gin + Tonic</p>
+            </div>
+        </div>
+      <div class="drink-item">
+            <img src="img/image_as.jpg" alt="Cocktail Image">
+            <div>
+                <h3>Aperol Spritz</h3>
+                <p>Prossecco, aperol and soda</p>
+            </div>
+        </div>
+      <div class="drink-item">
+            <img src="img/image_negroni.jpg" alt="Cocktail Image">
+            <div>
+                <h3>Negroni</h3>
+                <p>Aperol, Campari and red vermut</p>
+            </div>
+        </div>
+      <div class="drink-item">
+            <img src="img/image_amsour.jpg" alt="Cocktail Image">
+            <div>
+                <h3>Amaretto Sour</h3>
+                <p>Bourbon, amaretto, lemon juice, egg white</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="beers">
+        <h2>Beers</h2>
+        <div class="drink-item">
+            <img src="img/image_keo.jpg" alt="Beer Image">
+            <div>
+                <h3>KEO</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="drink-item">
+            <img src="img/image_guiness.jpg" alt="Beer Image">
+            <div>
+                <h3>Guiness</h3>
+                <p></p>
+            </div>
+        </div>
+      <div class="drink-item">
+            <img src="img/image_cider.jpg" alt="Beer Image">
+            <div>
+                <h3>Strongbow Dry Cider</h3>
+                <p></p>
+            </div>
+        </div>
+    </section>
+  
+  <section id="vine">
+        <h2>Vine</h2>
+        <div class="drink-item">
+            <img src="img/image_red_vine.jpg" alt="Vine Drink Image">
+            <div>
+                <h3>Glass of red wine</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="drink-item">
+            <img src="img/image_white_vine.jpg" alt="Vine Drink Image">
+            <div>
+                <h3>Glass of white wine</h3>
+                <p></p>
+            </div>
+        </div>
+    <div class="drink-item">
+            <img src="img/image_prosseco.jpg" alt="Vine Drink Image">
+            <div>
+                <h3>Glass of Prossecco</h3>
+                <p></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="virgin">
+        <h2>Virgin Drinks</h2>
+        <div class="drink-item">
+            <img src="img/image_water.jpg" alt="Virgin Drink Image">
+            <div>
+                <h3>Still water</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="drink-item">
+            <img src="img/image_fanta.jpg" alt="Virgin Drink Image">
+            <div>
+                <h3>Fanta Zero</h3>
+                <p></p>
+            </div>
+        </div>
+      <div class="drink-item">
+            <img src="img/image_coffee.jpg" alt="Virgin Drink Image">
+            <div>
+                <h3>Cyprus coffee</h3>
+                <p></p>
+            </div>
+        </div>
+      <div class="drink-item">
+            <img src="img/image_tea.jpg" alt="Virgin Drink Image">
+            <div>
+                <h3>Tea</h3>
+                <p></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 My Drink Menu</p>
+    </footer>
+</body>
+</html>
